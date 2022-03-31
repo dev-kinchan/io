@@ -1,0 +1,25 @@
+{
+  "name": "@kinchan/io",
+  "version": "1.0.0",
+  "description": "pleasant input, happy output.",
+  "main": "./build/index.js",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npx jest",
+    "watch": "npx jest --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Kinchan <kinchanatwork@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@types/react": "^17.0.43",
+    "jest": "^27.5.1",
+    "jest-cli": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
+  }
+}
